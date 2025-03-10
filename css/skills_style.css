@@ -1,0 +1,338 @@
+.skills_area {
+    width: 1200px;
+    height: 1200px;
+}
+
+.head_skills_head_area {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    height: 200px;
+}
+
+.skills_head {
+    position: absolute;
+    font-size: 35px;
+    top: 20px;
+}
+
+.skills_subhead {
+    position: absolute;
+    top: 104px;
+}
+
+.frontend_area,
+.backend_area {
+    position: relative;
+    width: 1200px;
+    height: 100px;
+}
+
+.frontend_area_expanded {
+    height: 500px;
+}
+
+.backend_area_expanded {
+    height: 300px;
+}
+
+.frontend_dropdown,
+.backend_dropdown {
+    position: relative;
+    left: 100px;
+    width: 1000px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.frontend_dropdown_image,
+.backend_dropdown_image {
+    position: absolute;
+    top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    color: rgb(95, 191, 226);
+}
+
+
+.frontend_dropdown_head,
+.backend_dropdown_head {
+    position: absolute;
+    top: 25px;
+    left: 50px;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 25px;
+    font-weight: 700;
+}
+
+.frontend_dropdown_subhead,
+.backend_dropdown_subhead {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    display: flex;
+    width: 160px;
+    height: 25px;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 15px;
+}
+
+.frontend_dropdown_content {
+    position: absolute;
+    top: 100px;
+    width: 1200px;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.7s ease-out;
+
+}
+
+.backend_dropdown_content {
+    position: absolute;
+    top: 100px;
+    width: 1200px;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.7s ease-out;
+}
+
+
+.skill {
+    width: 1200px;
+    height: 100px;
+}
+
+.skill_characters {
+    box-sizing: border-box;
+    padding-left: 150px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    height: 50px;
+    transition: all 0.7s ease-out;
+}
+
+.skill_characters_backend {
+    box-sizing: border-box;
+    padding-left: 150px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    height: 50px;
+    transition: all 0.7s ease-out;
+}
+
+.skill_characters_percentage {
+    position: absolute;
+    right: 85px;
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.skill_characters_percentage_backend {
+    position: absolute;
+    right: 85px;
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.parent_bar_100,
+.parent_bar_100_backend {
+    position: absolute;
+    left: 150px;
+    display: flex;
+    width: 950px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: rgb(173, 213, 228);
+    transition: all 0.7s;
+}
+
+.percentage_bar {
+    height: 6px;
+    background-color: rgb(95, 191, 226);
+}
+
+.html_bar {
+    bottom: 322px;
+}
+
+.percentage_bar_html {
+    width: 60%;
+}
+
+.css_bar {
+    bottom: 222px;
+}
+
+.percentage_bar_css {
+    width: 55%;
+}
+
+.js_bar {
+    bottom: 122px;
+}
+
+.percentage_bar_js {
+    width: 30%;
+}
+
+.vue_bar {
+    bottom: 22px;
+}
+
+.percentage_bar_vue {
+    width: 10%;
+}
+
+.java_bar {
+    top: 50px;
+}
+
+.percentage_bar_java {
+    width: 90%;
+}
+
+.python_bar {
+    top: 50px;
+}
+
+.percentage_bar_python {
+    width: 10%;
+}
+
+#skills_area {
+    scroll-margin-top: 100px;
+}
+
+
+@keyframes from_top_to_bottom_bar_front {
+    0% {
+        height: 0;
+        visibility: hidden;
+    }
+
+    100% {
+        height: 400px;
+        visibility: visible;
+    }
+}
+
+@keyframes from_bottom_to_top_bar_front {
+    0% {
+        height: 400px;
+        visibility: visible;
+    }
+
+    100% {
+        height: 0;
+        visibility: hidden;
+    }
+}
+
+@keyframes from_top_to_bottom_bar_back {
+    0% {
+        height: 0;
+        visibility: hidden;
+    }
+
+    100% {
+        height: 200px;
+        visibility: visible;
+    }
+}
+
+@keyframes from_bottom_to_top_bar_back {
+    0% {
+        height: 200px;
+        visibility: visible;
+    }
+
+    100% {
+        height: 0;
+        visibility: hidden;
+    }
+}
+
+@keyframes from_top_to_bottom_char_front {
+    0% {
+        transform: translateY(-400px);
+        visibility: hidden;
+    }
+
+    100% {
+        transform: translateY(0%);
+        visibility: visible;
+    }
+}
+
+@keyframes from_bottom_to_top_char_front {
+    0% {
+        transform: translateY(0%);
+        visibility: visible;
+    }
+
+    100% {
+        transform: translateY(-400px);
+        visibility: hidden;
+    }
+}
+
+@keyframes from_top_to_bottom_char_back {
+    0% {
+        transform: translateY(-200px);
+        visibility: hidden;
+    }
+
+    100% {
+        transform: translateY(0);
+        visibility: visible;
+    }
+}
+
+@keyframes from_bottom_to_top_char_back {
+    0% {
+        transform: translateY(0);
+        visibility: visible;
+    }
+
+    100% {
+        transform: translateY(-200px);
+        visibility: hidden;
+    }
+}
+
+@keyframes arrow_down {
+    0% {
+        transform: rotate(135deg);
+    }
+
+    100% {
+        transform: rotate(-45deg);
+    }
+}
+
+@keyframes arrow_up {
+    0% {
+        transform: rotate(-45deg);
+    }
+
+    100% {
+        transform: rotate(135deg);
+    }
+}

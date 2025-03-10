@@ -1,0 +1,354 @@
+.icon:before,
+.icon:after {
+    content: '';
+    position: absolute;
+    box-sizing: content-box;
+}
+
+.icon {
+    position: absolute;
+    box-sizing: content-box;
+    right: 15px;
+    top: 25px;
+}
+
+.icon i {
+    position: absolute;
+    box-sizing: content-box;
+}
+
+.icon i:before,
+.icon i:after {
+    content: '';
+    position: absolute;
+    box-sizing: content-box;
+}
+
+.play-filled.icon {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: solid 11px whitesmoke;
+    border-top: solid 7px transparent;
+    border-bottom: solid 7px transparent;
+}
+
+.icon1 {
+    right: 20px;
+    visibility: hidden;
+}
+
+/* 下载图标 */
+.icon_download:before,
+.icon_download:after {
+    content: '';
+    position: absolute;
+    box-sizing: content-box;
+}
+
+.icon_download {
+    position: absolute;
+    box-sizing: content-box;
+    right: 20px;
+    top: 40px;
+}
+
+.icon_download i {
+    position: absolute;
+    box-sizing: content-box;
+}
+
+.icicon_downloadon i:before,
+.icon_download i:after {
+    content: '';
+    position: absolute;
+    box-sizing: content-box;
+}
+
+.download.icon_download:after {
+    content: '';
+    position: absolute;
+    left: 3px;
+    top: -4px;
+    width: 6px;
+    height: 6px;
+    border-top: solid 2px #ffffff;
+    border-right: solid 2px #ffffff;
+    transform: rotate(135deg);
+}
+
+.download.icon_download:before {
+    content: '';
+    position: absolute;
+    left: 6px;
+    top: -10px;
+    width: 2px;
+    height: 13px;
+    background-color: #ffffff;
+}
+
+.download.icon_download {
+    position: absolute;
+    width: 14px;
+    height: 6px;
+    border-radius: 1px;
+    border: solid 2px #ffffff;
+    border-top: none;
+}
+
+/* 鼠标 */
+.icon_mouse:before,
+.icon_mouse:after {
+    content: '';
+    position: absolute;
+    box-sizing: content-box;
+}
+
+.icon_mouse {
+    position: absolute;
+    box-sizing: content-box;
+}
+
+.icon_mouse i {
+    position: absolute;
+    box-sizing: content-box;
+}
+
+.icon_mouse i:before,
+.icon_mouse i:after {
+    content: '';
+    position: absolute;
+    box-sizing: content-box;
+}
+
+.mouse.icon_mouse:after {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: 6px;
+    width: 2px;
+    height: 11px;
+    background-color: rgb(95, 191, 226);
+}
+
+.mouse.icon_mouse {
+    position: absolute;
+    width: 14px;
+    height: 20px;
+    border: solid 2px rgb(95, 191, 226);
+    border-radius: 6px;
+}
+
+/* 向下箭头，下滚 */
+.icon_arrow_down:before,
+.icon_arrow_down:after {
+    content: '';
+    position: absolute;
+    box-sizing: content-box;
+}
+
+.icon_arrow_down {
+    position: absolute;
+    box-sizing: content-box;
+    right: 15px;
+}
+
+.icon_arrow_down i {
+    position: absolute;
+    box-sizing: content-box;
+}
+
+.icon_arrow_down i:before,
+.icon_arrow_down i:after {
+    content: '';
+    position: absolute;
+    box-sizing: content-box;
+}
+
+.arrow-down.icon_arrow_down:before {
+    content: '';
+    position: absolute;
+    left: -6px;
+    top: -2px;
+    width: 12px;
+    height: 12px;
+    border-top: solid 2px rgb(95, 191, 226);
+    border-right: solid 2px rgb(95, 191, 226);
+    transform: rotate(135deg);
+}
+
+.arrow-down.icon_arrow_down {
+    position: absolute;
+    width: 2px;
+    height: 12px;
+    background-color: rgb(95, 191, 226);
+}
+
+/* 向下的箭头，skills - frontend */
+.icon_down:before,
+.icon_down:after {
+    content: '';
+    position: absolute;
+    box-sizing: content-box;
+}
+
+.icon_down {
+    position: absolute;
+    box-sizing: content-box;
+    top: 40px;
+    right: 0;
+}
+
+.icon_down i {
+    position: absolute;
+    box-sizing: content-box;
+}
+
+.icon_down i:before,
+.icon_down i:after {
+    content: '';
+    position: absolute;
+    box-sizing: content-box;
+}
+
+.check.icon_down {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-bottom: solid 3px rgb(95, 191, 226);
+    border-left: solid 3px rgb(95, 191, 226);
+    transform: rotate(-45deg);
+}
+
+/* 向下的箭头，skills - backend */
+.icon_down_backend:before,
+.icon_down_backend:after {
+    content: '';
+    position: absolute;
+    box-sizing: content-box;
+}
+
+.icon_down_backend {
+    position: absolute;
+    box-sizing: content-box;
+    top: 40px;
+    right: 0;
+}
+
+.icon_down_backend i {
+    position: absolute;
+    box-sizing: content-box;
+}
+
+.icon_down_backend i:before,
+.icon_down_backend i:after {
+    content: '';
+    position: absolute;
+    box-sizing: content-box;
+}
+
+.check_backend.icon_down_backend {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-bottom: solid 3px rgb(95, 191, 226);
+    border-left: solid 3px rgb(95, 191, 226);
+    transform: rotate(-45deg);
+}
+
+/* 终端，skills */
+.icon_terminal:before,
+.icon_terminal:after {
+    content: '';
+    position: absolute;
+    box-sizing: content-box;
+}
+
+.icon_terminal {
+    position: absolute;
+    box-sizing: content-box;
+}
+
+.icon_terminal i {
+    position: absolute;
+    box-sizing: content-box;
+}
+
+.icon_terminal i:before,
+.icon_terminal i:after {
+    content: '';
+    position: absolute;
+    box-sizing: content-box;
+}
+
+.terminal.icon_terminal {
+    position: absolute;
+    width: 17px;
+    height: 15px;
+    border: solid 2px rgb(95, 191, 226);
+    border-radius: 1px;
+}
+
+.terminal.icon_terminal:before {
+    top: 4px;
+    left: 1px;
+    width: 4px;
+    height: 4px;
+    border-right: solid 2px rgb(95, 191, 226);
+    border-bottom: solid 2px rgb(95, 191, 226);
+    transform: rotate(-45deg);
+}
+
+.terminal.icon_terminal:after {
+    left: 9px;
+    top: 9px;
+    width: 4px;
+    height: 2px;
+    background-color: rgb(95, 191, 226);
+}
+
+/* 向右的箭头，protfolio */
+.icon_download_demo_right:before,
+.icon_download_demo_right:after {
+    content: '';
+    position: absolute;
+    box-sizing: content-box;
+}
+
+.icon_download_demo_right {
+    position: absolute;
+    right: 23px;
+    top: 30px;
+    box-sizing: content-box;
+}
+
+.icon_download_demo_right i {
+    position: absolute;
+    box-sizing: content-box;
+}
+
+.icon_download_demo_right i:before,
+.icon_download_demo_right i:after {
+    content: '';
+    position: absolute;
+    box-sizing: content-box;
+}
+
+.arrow-right.icon_download_demo_right:before {
+    content: '';
+    position: absolute;
+    right: 1px;
+    top: -5px;
+    width: 10px;
+    height: 10px;
+    border-top: solid 3px white;
+    border-right: solid 3px white;
+    transform: rotate(45deg);
+}
+
+.arrow-right.icon_download_demo_right {
+    position: absolute;
+    width: 14px;
+    height: 3px;
+    background-color: white;
+}

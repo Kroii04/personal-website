@@ -1,0 +1,39 @@
+.scroll_image {
+    position: relative;
+    width: 1200px;
+    height: 120px;
+    overflow: hidden;
+}
+
+.technical_standard {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    right: -200px;
+    color: rgb(95, 191, 226);
+    margin: 0 5px;
+    transition: all 0.2s;
+}
+
+
+@keyframes scrollLeft {
+    0% {
+        right: -200px;
+    }
+
+    100% {
+        right: 2000px;
+    }
+}
+
+.technical_standard svg {
+    position: absolute;
+    left: 8.3%;
+    top: 8.3%;
+    width: 100px;
+    height: 100px;
+}

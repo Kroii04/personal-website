@@ -1,0 +1,82 @@
+.contact_me_area {
+    width: 1200px;
+    height: 600px;
+    scroll-margin-top: 100px;
+}
+
+.contact_me_head_area {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 200px;
+}
+
+.contact_me_head {
+    position: absolute;
+    font-size: 35px;
+    top: 70px;
+}
+
+.contact_me_subhead {
+    position: absolute;
+    top: 160px;
+}
+
+.contact_me_infor {
+    position: relative;
+    width: 1200px;
+    height: 400px;
+}
+
+.infor {
+    position: absolute;
+    width: 1200px;
+    height: 133px;
+}
+
+.contact_me_box {
+    display: flex;
+    position: absolute;
+    width: 133px;
+    height: 133px;
+}
+
+.contact_me_box svg {
+    position: absolute;
+    top: 37px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.contact_me_title {
+    position: absolute;
+    line-height: 43px;
+    top: 30px;
+    left: 133px;
+    width: auto;
+    height: 43px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.contact_me_number {
+    position: absolute;
+    box-sizing: border-box;
+    padding-top: 5px;
+    left: 133px;
+    bottom: 0;
+    width: auto;
+    height: 60px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.e_mail {
+    top: 133px;
+}
+
+.location {
+    top: 266px;
+}

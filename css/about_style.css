@@ -1,0 +1,171 @@
+.about_me {
+    position: relative;
+    display: flex;
+    width: 1200px;
+    height: 800px;
+}
+
+#about_area {
+    scroll-margin-top: 100px;
+}
+
+.head_about_me_area {
+    position: relative;
+    display: flex;
+    width: 1200px;
+    height: 200px;
+    justify-content: center;
+}
+
+.head_about_me {
+    position: absolute;
+    font-size: 35px;
+    top: 20px;
+}
+
+.subhead_about_me {
+    position: absolute;
+    top: 87px;
+}
+
+.about_details {
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    height: 600px;
+    width: 1200px;
+}
+
+.about_image {
+    height: 600px;
+    width: 640px;
+    background-image: url(../image/about_image_docker.png);
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    background-position: 200px 190px;
+}
+
+.introduction_details_area {
+    width: 560px;
+    height: 600px;
+}
+
+.introduction_details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+    width: 560px;
+    height: 150px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    transition: all 0.4s;
+}
+
+.introduction_projects {
+    display: flex;
+    position: absolute;
+    top: 300px;
+    width: 560px;
+    height: 150px;
+    justify-content: space-between;
+}
+
+.introduction_projects_num {
+    height: 150px;
+    width: 150px;
+}
+
+.num_year {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+    width: 150px;
+    height: 80px;
+}
+
+.num_characters {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 150px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.introduction_downloadCV {
+    box-sizing: border-box;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 450px;
+    width: 560px;
+    height: 150px;
+    transition: all 0.4s;
+}
+
+.introduction_downloadCV_button {
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    width: 200px;
+    height: 80px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    padding-left: 30px;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(95, 191, 226);
+    transition: all 0.4s;
+}
+
+.introduction_downloadCV_button:hover {
+    background-color: rgb(38, 162, 207);
+}
+
+.introduction_downloadCV_button:hover .download.icon_download:after {
+    animation: download_move1 0.8s infinite linear
+}
+
+.introduction_downloadCV_button:hover .download.icon_download:before {
+    animation: download_move2 0.8s infinite linear
+}
+
+
+
+@keyframes download_move1 {
+    0% {
+        top: -4px;
+    }
+
+    50% {
+        top: -8px;
+    }
+
+    100% {
+        top: -4px;
+    }
+}
+
+@keyframes download_move2 {
+    0% {
+        top: -9px;
+    }
+
+    50% {
+        top: -13px;
+    }
+
+    100% {
+        top: -9px;
+    }
+}
