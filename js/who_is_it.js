@@ -7,12 +7,12 @@ let csdn = document.querySelector('.csdn')
 let leetcode = document.querySelector('.leetcode')
 
 if (a === 'your_password') {
-    introduction_downloadCV_button.setAttribute('href', 'resource/cv.pdf');
+    introduction_downloadCV_button.setAttribute('href', '#');
     download_demo_button.setAttribute('href', 'resource/MyWebSite.zip')
 
-    phone_number.innerHTML = '15294183375'
-    e_mail_self.innerHTML = 'gwkuroii@gmail.com'
-    location_sh.innerHTML = 'ShangHai,CNH'
+    phone_number.innerHTML = 'Your phone number'
+    e_mail_self.innerHTML = 'Your mail'
+    location_sh.innerHTML = 'Your location'
 
     csdn.setAttribute('href', '#')
     leetcode.setAttribute('href', '#')
