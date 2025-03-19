@@ -7,7 +7,7 @@ let csdn = document.querySelector('.csdn')
 let leetcode = document.querySelector('.leetcode')
 
 if (a === 'your_password') {
-    introduction_downloadCV_button.setAttribute('href', '#');
+    introduction_downloadCV_button.setAttribute('href', 'resource/cv.pdf');
     download_demo_button.setAttribute('href', 'resource/MyWebSite.zip')
 
     phone_number.innerHTML = 'Your phone number'
